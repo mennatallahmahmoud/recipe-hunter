@@ -1,0 +1,14 @@
+.reveal-container {
+    background-image: url("../../assets/imgs/reveal-img.png");
+    background-size: cover;
+    background-position: center;
+}
+#loading {
+    display: none;
+}
+#loading.active {
+    display: flex;
+}
+.loader svg{
+    height: 100px !important;
+}

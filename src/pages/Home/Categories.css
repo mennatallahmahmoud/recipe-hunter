@@ -1,0 +1,35 @@
+.background {
+    background: linear-gradient(-45deg, hsla(60, 100%, 50%, 0.9), #ffffff, hsl(47.19deg 100% 49.61% / 70%), #ffffff);
+    background-size: 200% 200%;
+    animation: gradient 3s ease infinite;
+    opacity: 0.3;  
+}
+
+.category {
+    transition: 0.4s;
+}
+
+.category:hover svg {
+    animation: move 1s infinite alternate linear;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes move {
+    0%, 100% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+}

@@ -1,0 +1,18 @@
+.meals {
+  animation: slider 20s linear infinite alternate;
+}
+.meals:hover {
+  animation-play-state: paused;
+}
+.meal-img:hover .img-overlay{
+  display: flex;
+}
+
+@keyframes slider {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-50%);
+  }
+}
