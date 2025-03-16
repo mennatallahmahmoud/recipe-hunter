@@ -24,7 +24,7 @@ export default function Carousel() {
             viewport={{ once:true, amount: 0.4 }}>
                 <div className='header text-center mb-20 mx-4'>
                     <h2 className='text-4xl md:text-5xl font-bold mb-5'>Taste the Best</h2>
-                    <p className='text-base md:text-lg text-zinc-500 leading-[22px] tracking-[1.5px]'>Discover a variety of mouthwatering meals<br/>Find your next favorite dish!</p>
+                    <p className='text-base md:text-lg md:w-1/2 lg:w-[40%] mx-4 md:mx-auto text-zinc-400 leading-[22px]'>Discover a variety of mouthwatering meals, Find your next favorite dish!</p>
                 </div>
                 <div>
                     <div className={`overflow-hidden ${!state ? 'flex justify-between' : ''}`}>

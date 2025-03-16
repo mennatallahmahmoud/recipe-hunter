@@ -119,15 +119,9 @@ export default function SuggestForm() {
               <textarea id="ingredients" rows="4" className="block p-2.5 w-full h-[200px] resize-none focus-within:outline-none overflow-y-scroll text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:border-red-600 caret-red-600" placeholder="Write recipe ingredients here..."></textarea>
             </div>
             <div className="col-span-12 md:col-span-6 relative z-0 w-full mb-7 group">
-              <label htmlFor="instructions" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Recipe Instructions</label>
+              <label htmlFor="instructions" className="block mb-2 text-sm font-medium text-gray-900">Recipe Instructions</label>
               <textarea id="instructions" rows="4" className="block p-2.5 w-full h-[200px] resize-none focus-within:outline-none overflow-y-scroll text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:border-red-600 caret-red-600" placeholder="Write recipe instructions here..."></textarea>
             </div>
-          </div>
-
-          <div className="relative z-0 w-full mb-5 group">
-            <label className="block mb-2 text-sm font-medium text-gray-900" htmlFor="meal-img">Upload Meal Image</label>
-            <input className="block w-[80%] p-[10px] text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none" aria-describedby="file_input_help" id="meal-img" type="file"/>
-            <p className="mt-1 text-sm text-gray-500" id="file_input_help">SVG, PNG, JPG or GIF (MAX. 800x400px).</p>
           </div>
 
           <hr className="my-6 border-gray-300 sm:mx-auto lg:my-10"/>
@@ -139,7 +133,7 @@ export default function SuggestForm() {
               <input type="text" id="username" className="bg-gray-50 border border-gray-300 focus-within:outline-none text-gray-900 text-sm rounded-lg caret-red-600 focus:border-red-600 block w-full p-2.5" placeholder="Your name..." required />
             </div>
             <div className="col-span-12 md:col-span-6 relative z-0 w-full mb-7 group">
-              <label htmlFor="user-email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email Address</label>
+              <label htmlFor="user-email" className="block mb-2 text-sm font-medium text-gray-900">Email Address</label>
               <input type="email" id="user-email" className="bg-gray-50 border border-gray-300 focus-within:outline-none text-gray-900 text-sm rounded-lg caret-red-600 focus:border-red-600 block w-full p-2.5" placeholder="Your email..." required />
             </div>
           </div>

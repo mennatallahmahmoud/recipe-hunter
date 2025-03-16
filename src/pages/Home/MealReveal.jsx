@@ -39,12 +39,12 @@ export default function MealReveal() {
                     transition={{ duration: 1.5}}
                     viewport={{ once:true, amount: 0.4 }}
                 >Mystery Meal Reveal</motion.h2>
-                <motion.p className='text-sm md:text-lg text-zinc-500 leading-[22px] tracking-[1.5px]'
+                <motion.p className='text-sm md:text-lg md:w-[60%] mx-4 md:mx-auto text-zinc-400 leading-[22px]'
                     initial={{ x: 150, opacity: 0}}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1.5}}
                     viewport={{ once:true, amount: 0.4 }}>
-                Feeling indecisive? Let fate decide your next meal!<br/>Get ready for a delicious adventure!
+                Feeling indecisive? Let fate decide your next meal! Get ready for a delicious adventure!
                 </motion.p>
             </div>
             <div>

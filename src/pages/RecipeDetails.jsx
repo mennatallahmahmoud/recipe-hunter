@@ -36,7 +36,7 @@ export default function stateDetails() {
     <section className="meal-container bg-cover bg-center " style={{backgroundImage: `url(${img})`}}>
         <div className="py-[170px] px-[30px]">
           {state ? (
-          <div className="bg-[#f0f0f0e8] shadow-xl rounded-sm lg:w-3/4 mx-auto p-10 border border-[#eeeeee]">
+          <div className="bg-[#f0f0f0e8] shadow-xl rounded-sm lg:w-3/4 mx-auto py-10 px-6 border border-[#eeeeee]">
             <div className="max-w-full bg-transparent flex flex-col lg:flex-row items-center mb-5 relative z-10">
                 <div className="basis-1/2">
                     <img className="rounded-lg mx-auto lg:mx-0 lg:ms-auto max-w-full overflow-hidden mb-10 md:w-3/4 lg:w-1/2" src={state.strMealThumb} alt={state.strMeal} />
@@ -63,9 +63,10 @@ export default function stateDetails() {
                     <div>
                     {ingredients && ingredients.map((x, i) => (
                         <span key={`0${i}`} className="text-base text-gray-700 flex items-center mb-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-                            </svg>
+                            </svg> */}
+                            <svg className="w-8 me-2" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><title/><g id="Grid"><path d="M66.5,94h-34A19.53,19.53,0,0,1,13,74.5V64.61A1.61,1.61,0,0,1,14.61,63H84.39A1.61,1.61,0,0,1,86,64.61V74.5A19.53,19.53,0,0,1,66.5,94ZM16,66v8.5A16.52,16.52,0,0,0,32.5,91h34A16.52,16.52,0,0,0,83,74.5V66Z"/><path d="M14.5,59a1.5,1.5,0,0,1-.58-2.88,92.46,92.46,0,0,1,71.16,0,1.5,1.5,0,1,1-1.16,2.76,89.54,89.54,0,0,0-68.84,0A1.51,1.51,0,0,1,14.5,59Z"/><path d="M56.5,45A1.5,1.5,0,0,1,55,43.5a5.5,5.5,0,0,0-11,0,1.5,1.5,0,0,1-3,0,8.5,8.5,0,0,1,17,0A1.5,1.5,0,0,1,56.5,45Z"/><path d="M119.5,66h-28a1.5,1.5,0,0,1,0-3h28a1.5,1.5,0,0,1,0,3Z"/></g></svg>
                             {x} 
                         </span>
                     ))}

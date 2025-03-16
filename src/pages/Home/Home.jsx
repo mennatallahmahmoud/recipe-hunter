@@ -14,7 +14,7 @@ export default function Home() {
 
 
   return (
-    <section className="pt-[92px] overflow-hidden">
+    <section className="pt-[46px] md:pt-[92px] overflow-hidden">
         <Hero />
         <Carousel/>
         <MealReveal />

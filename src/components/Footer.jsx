@@ -62,24 +62,24 @@ export default function Footer() {
                     <Link to="/" className="col-span-3 block md:mb-6 sm:mb-0 space-x-3 mx-auto">
                         <img src={Logo} className="w-56" alt="Recipe Hunter" />
                     </Link>
-                    <ul className="col-span-3 md:col-span-1 flex flex-col items-start gap-[6px] mb-6 text-sm font-medium text-gray-500 sm:mb-0">
+                    <ul className="col-span-3 md:col-span-1 flex flex-col items-start mb-6 text-sm font-medium text-gray-500 sm:mb-0">
                         <li className="font-bold text-lg text-gray-700 mb-3">
                             About
                         </li>
-                        <li>
+                        <li className="mb-2">
                             <Link to="/recipes" className="hover:text-red-600 me-4 md:me-6">Recipes</Link>
                         </li>
-                        <li>
+                        <li className="mb-2">
                             <Link to="/categories" className="hover:text-red-600 me-4 md:me-6">Categories</Link>
                         </li>
-                        <li>
+                        <li className="mb-2">
                             <button className="hover:text-red-600 me-4 md:me-6" onClick={scrollToAbout}>About</button>
                         </li>
-                        <li>
+                        <li className="mb-2">
                             <Link to="/suggest-recipe" className="hover:text-red-600 me-4 md:me-6">Suggest a Recipe</Link>
                         </li>
                     </ul>
-                    <div className="col-span-3 md:col-span-1 text-start">
+                    <div className="col-span-3 md:col-span-1 text-start  mb-6">
                         <h5 className="font-bold text-lg text-gray-700 mb-3">Newsletters</h5>
                         <p className="text-sm text-start text-gray-500 mb-5">
                         Do you want to find out when our latest recipes is available? Subscribe NOW for our newsletter and get the latest monthly recipes.
@@ -95,7 +95,7 @@ export default function Footer() {
                             <Link to="mailto:mennamahamed3@gmail.com" className="inline-block absolute top-1/2 -translate-y-1/2 border border-yellow-400 hover:border-yellow-500 right-0 w-fit text-sm font-semibold cursor-pointer focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 px-3 py-2.5 uppercase">Subscribe</Link>
                         </div>
                     </div>
-                    <ul className="col-span-3 md:col-span-1 text-start md:ms-auto">
+                    <ul className="col-span-3 md:col-span-1 text-start md:ms-auto  mb-6">
                         <li className="font-bold text-lg text-gray-700 mb-3">
                             Contact
                         </li>

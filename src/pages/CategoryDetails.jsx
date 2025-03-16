@@ -31,12 +31,12 @@ export default function CategoryDetails() {
         <div className="py-[170px] px-[30px]">
         {category ? (
         <>
-        <div className="relative bg-[#f0f0f0e8] shadow-xl flex flex-col items-center mb-5 lg:w-3/4 mx-auto p-12 border border-[#eeeeee]" >
+        <div className="relative bg-[#f0f0f0e8] shadow-xl flex flex-col items-center mb-5 lg:w-3/4 mx-auto py-10 px-6 border border-[#eeeeee]" >
             <div className="basis-1/2 text-center relative z-10">
                 <h5 className="mb-5 text-2xl font-bold tracking-tight text-gray-900">{category.strCategory}</h5>
                 <img className="rounded-lg mx-auto lg:mx-0 max-w-full overflow-hidden mb-10 w-full" src={category.strCategoryThumb} alt={category.strCategory} />
             </div>
-            <motion.div className="p-5 basis-1/2 relative z-10"
+            <motion.div className="py-5 basis-1/2 relative z-10"
             initial={{ y: 100, opacity: 0}}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6 }}

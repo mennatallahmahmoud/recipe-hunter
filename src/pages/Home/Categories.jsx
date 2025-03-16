@@ -24,11 +24,11 @@ export default function Categories() {
             initial={{ y: 100, opacity: 0}}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 1 }}
-            viewport={{ once:true, amount: 0.2 }}
+            viewport={{ once:true, amount: 0 }}
         >
             <div className='header text-center mb-20 mx-4'>
                 <h2 className='text-3xl md:text-5xl font-bold mb-5'>Explore, Select, Enjoy</h2>
-                <p className='text-base md:text-lg text-zinc-500 leading-[22px] tracking-[1.5px]'>Browse through our categories and discover exactly what you need<br/>with ease and style</p>
+                <p className='text-base md:text-lg md:w-[60%] lg:w-[50%] mx-4 md:mx-auto text-zinc-400 leading-[22px]'>Browse through our categories and discover exactly what you need with ease and style</p>
             </div>
             {state ? (
             <div className="categories-container grid grid-cols-12 gap-3 text-center">
