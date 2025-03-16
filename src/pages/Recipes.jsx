@@ -14,8 +14,8 @@ export default function Recipes() {
   const [searchInput, setSearchInput] = useState("");
   const [category, setCategory] = useState("");
 
-  let state = useSelector((state) => state.meals.meals);
-  const categoriesState = useSelector((state) => state.cats.categories);
+  let state = useSelector((state) => state.meals);
+  const categoriesState = useSelector((state) => state.cats);
   const dispatch = useDispatch();
 
   if(state) {

@@ -8,7 +8,7 @@ import { Link } from "react-router";
 
 export default function Categories() {
 
-  const allState = useSelector((state) => state.cats.categories);
+  const allState = useSelector((state) => state.cats);
   const state = allState && allState.slice(0, 4);
   const dispatch = useDispatch();
 

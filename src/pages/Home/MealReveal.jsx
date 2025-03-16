@@ -11,7 +11,7 @@ import animationData from "./../../../Animation - 1742002097683.json";
 export default function MealReveal() {
         
     const [meal, setMeal] = useState(null)
-    const allState = useSelector((state) => state.meals.meals);
+    const allState = useSelector((state) => state.meals);
     const dispatch = useDispatch();
 
     useEffect(() => {

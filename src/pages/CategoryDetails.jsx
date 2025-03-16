@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 export default function CategoryDetails() {
 
     const params = useParams().id;
-    const state = useSelector((state) => state.cats.categories);
+    const state = useSelector((state) => state.cats);
     const dispatch = useDispatch();
 
     useEffect(() => {

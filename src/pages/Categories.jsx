@@ -9,7 +9,7 @@ export default function Categories() {
 
   const [searchInput, setSearchInput] = useState("");
 
-  let state = useSelector((state) => state.cats.categories);
+  let state = useSelector((state) => state.cats);
   const dispatch = useDispatch();
 
   if(state) {

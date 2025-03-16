@@ -9,8 +9,8 @@ export default function SuggestForm() {
   const [prepTime, setPrepTime] = useState(0);
   const [cookingTime, setCookingTime] = useState(0);
 
-  const catsState = useSelector((state) => state.cats.categories);
-  const mealsState = useSelector((state) => state.meals.meals);
+  const catsState = useSelector((state) => state.cats);
+  const mealsState = useSelector((state) => state.meals);
   const dispatch = useDispatch();
 
   useEffect(() => {

@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 export default function Carousel() {
 
-    const state = useSelector((state) => state.meals.meals);
+    const state = useSelector((state) => state.meals);
     const dispatch = useDispatch();
 
     useEffect(() => {
