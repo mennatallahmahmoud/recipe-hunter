@@ -31,7 +31,7 @@ export default function Nav() {
                         behavior: "smooth"
                     })
                 }}>
-                <img src={Logo} className="w-40 md:w-56" alt="Recipe Hunter"/>
+                <img src={Logo} className="w-44 md:w-56" alt="Recipe Hunter"/>
             </button>
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse lg:hidden">
                 <button data-collapse-toggle="navbar-sticky" type="button" className="burger-icon inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:text-red-600" aria-controls="navbar-sticky" aria-expanded="false">

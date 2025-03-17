@@ -60,7 +60,7 @@ export default function Footer() {
             <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8 text-center relative">
                 <div className="grid grid-cols-3 text-center">
                     <Link to="/" className="col-span-3 block md:mb-6 sm:mb-0 space-x-3 mx-auto">
-                        <img src={Logo} className="w-40 md:w-56" alt="Recipe Hunter" />
+                        <img src={Logo} className="w-44 md:w-56" alt="Recipe Hunter" />
                     </Link>
                     <ul className="col-span-3 md:col-span-1 flex flex-col items-start mb-6 text-sm font-medium text-gray-500 sm:mb-0">
                         <li className="font-bold text-lg text-gray-700 mb-3">
